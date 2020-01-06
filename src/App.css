@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+}
+
+.headerRow {
+  background-color: #5f9ea0;
+  margin-bottom: 40px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.mainContainer {
+  margin-top: 100px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.addRow {
+  margin-bottom: 50px;
+}
+
+.addRow span,
+.searchRow span {
+  color: gray;
+  font-style: italic;
+}
+
+.toDoText,
+.searchText {
+  width: 50%;
+  border: none;
+  border-bottom: 2px solid #5f9ea0;
+}
+
+.buttonCancel,
+.buttonAdd {
+  margin-left: 10px;
+  border-radius: 0 !important;
+}
+
+.buttonDelete {
+  margin-left: 10px;
+  border-radius: 0 !important;
+  padding: 0.275rem 0.75rem;
+}
+
+.filterRow {
+  background-color: #5f9ea0;
+  margin-top: 50px;
+}
+
+.filterRow .btn-link {
+  color: white;
+  text-decoration: none !important;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.filterRow .btn-link:hover {
+  color: white;
+}
+
+.list-group {
+  width: 100%;
+}
+
+.list-group-item {
+  border: none !important;
+}
+
+.listItemColToDo {
+  text-align: left;
+}
+
+.itemCompleteButton {
+  background: white !important;
+  color: #6c757d !important;
+  border: 1px solid #6c757d !important;
+  border-radius: 0 !important;
+  padding: 0.175rem 0.35rem !important;
+}
+
+.itemDeleteButton {
+  border-radius: 0 !important;
+  padding: 0.175rem 0.35rem !important;
+}
